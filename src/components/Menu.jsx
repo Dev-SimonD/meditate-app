@@ -15,15 +15,15 @@ const Menu = () => {
         </nav> */
         <div className='menu'>
           <div className='menuItems'>
-            <img src={calendar} alt="some" />
+            <img src={calendar} alt="calendar" />
             <p>Today</p>
           </div>
           <div className='menuItems'>
-          <img src={yoga} alt="some" />
-            <p>Excersise</p>
+          <img src={yoga} alt="yoga" />
+            <p>Yoga</p>
           </div>
           <div className='menuItems'>
-          <img src={settings} alt="some" />
+          <img src={settings} alt="settings" />
             <p>Settings</p>
           </div>
         </div>

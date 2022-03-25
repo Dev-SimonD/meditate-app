@@ -29,14 +29,23 @@ body{
   justify-content: center;
   align-items: center;
 }
+.mainBground{
+  background-image: url("./images/background.jpg");
+  background-size: contain;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
 
+}
 .menu{
   width: 100%;
   position: fixed;
   padding: 0.8rem 0;
   bottom: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
   background-color: white;
@@ -46,36 +55,35 @@ body{
   flex-direction: column;  
   justify-content: center;
   align-items: center;
+  width: 25px;
 }
 .menu img{
   width: 35px;
   height: auto;
 }
+.menu p{
+  font-size: 0.6rem;
+}
 .myCard{
   background-color: white;
-  padding: 1rem;
-  width: 80%;
-  border-radius: 2rem;
+  padding: 2rem;
+  width: 90%;
+  border-radius: 2rem 2rem 1rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 80%;
-margin-bottom: 6rem;
+margin-bottom: 3rem;
 }
 .myCard img{
   width: 100%;
 }
 .myCard p{
   padding: 2rem;
+  text-align: center;
 }
 .myCard button{
   padding: 1rem 2rem;
-  background-color: rgb(22, 112, 85);
-  color: white;
-  cursor: pointer;
-}
-.btn :hover{
-  background-color: white;
-  color: rgb(22, 112, 85);
+  box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
 }
