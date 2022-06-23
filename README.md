@@ -1,3 +1,3 @@
-# Meditation app
+# Meditation app (In Progress)
 
-### in progress
+### This app will allow the user to set time to meditate and play ambient sounds in background
