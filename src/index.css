@@ -31,7 +31,6 @@ body{
 }
 .mainBground{
   background-image: url("./images/background.jpg");
-  background-size: contain;
   width: 100%;
   height: 50%;
   position: absolute;
@@ -77,7 +76,7 @@ body{
 margin-bottom: 3rem;
 }
 .myCard img{
-  width: 100%;
+  max-width: 100%;
 }
 .myCard p{
   padding: 2rem;
